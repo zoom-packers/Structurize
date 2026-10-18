@@ -3,12 +3,12 @@ repositories {
 }
 
 dependencies {
-    apiImplementation "com.ldtteam:blockui:0.0.1-local"
-    implementation "com.ldtteam:blockui:0.0.1-local"
+    apiImplementation "com.ldtteam:blockui:26.3-zp5.1"
+    implementation "com.ldtteam:blockui:26.3-zp5.1"
 
-    apiImplementation "com.ldtteam:domum-ornamentum:1.0.0-local"
-    implementation "com.ldtteam:domum-ornamentum:1.0.0-local"
-    runtimeOnly "com.ldtteam:domum-ornamentum:1.0.0-local"
+    apiImplementation "com.ldtteam:domum-ornamentum:26.3-zp5.1"
+    implementation "com.ldtteam:domum-ornamentum:26.3-zp5.1"
+    runtimeOnly "com.ldtteam:domum-ornamentum:26.3-zp5.1"
 
     testImplementation 'junit:junit:4.13.2'
 }
